@@ -1,147 +1,89 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Mohammed Sadiq.A - Portfolio</title>
-
   <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
 
   <!-- Navbar -->
-
   <header>
-
     <h1>Mohammed Sadiq.A</h1>
-
     <nav>
-
       <a href="#home">Home</a>
-
       <a href="#about">About</a>
-
       <a href="#projects">Projects</a>
-
       <a href="#contact">Contact</a>
-
     </nav>
-
   </header>
 
   <!-- Home -->
-
   <section id="home">
-
-    <img src="photo.png" alt="Profile Picture">
-
-    <h2>Hi, I'm Mohammed Sadiq 👋</h2>
-
-    <p>AI Student</p>
-
+    <div class="home-container">
+      <div class="home-img">
+        <img src="photo.png" alt="Profile Picture">
+      </div>
+      <div class="home-text">
+        <h2>Hi, I'm <span class="highlight">Mohammed Sadiq 👋</span></h2>
+        <p>AI Student</p>
+      </div>
+    </div>
   </section>
 
   <!-- About -->
-
   <section id="about">
-
     <h2>About Me</h2>
-
     <p>
-
       I'm studying at <strong>DRBCCC Hindu College, Madras University</strong>.<br>
-
       My skills include <strong>Python, Java, Data Structures</strong>.<br>
-
       Apart from coding, I'm interested in <strong>Karate 🥋</strong>.
-
     </p>
-
   </section>
 
   <!-- Projects -->
-
   <section id="projects">
-
     <h2>My Projects</h2>
-
     <div class="project-card">
-
       <h3>Java Calculator</h3>
-
       <p>A simple calculator built using Java.</p>
-
     </div>
-
     <div class="project-card">
-
       <h3>Web Page</h3>
-
       <p>A basic responsive web page using HTML, CSS, and JS.</p>
-
     </div>
-
     <div class="project-card">
-
       <h3>Digital Wellness and Health Insights</h3>
-
       <p>A website for tracking health and digital wellness.</p>
-
     </div>
-
   </section>
 
   <!-- Contact -->
-
   <section id="contact">
-
     <h2>Contact Me</h2>
-
     <p>Email: <a href="mailto:sadiqgamer97@gmail.com">sadiqgamer97@gmail.com</a></p>
-
     <p>Phone: <a href="tel:+919384667372">9384667372</a></p>
 
     <div class="social-links">
-
       <a href="https://www.instagram.com/itzz._.sadiqq?igsh=cnpvbmY4MmJoMWVk" target="_blank">Instagram</a>
-
       <a href="https://www.linkedin.com/in/%C5%9B%C3%A0%C4%8F%C3%AEq-g%C3%A0m%C3%A8%C5%99-063211316" target="_blank">LinkedIn</a>
-
     </div>
 
     <form id="contactForm">
-
       <input type="text" id="name" placeholder="Your Name" required>
-
       <input type="email" id="email" placeholder="Your Email" required>
-
       <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
-
       <button type="submit">Send</button>
-
     </form>
-
     <p id="formMessage" style="margin-top:15px; color: green; display: none;">Message Sent Successfully ✅</p>
-
   </section>
 
   <!-- Footer -->
-
   <footer>
-
     <p>© 2025 Mohammed Sadiq.A | All Rights Reserved</p>
-
   </footer>
 
   <script src="script.js"></script>
-
 </body>
-
 </html>
